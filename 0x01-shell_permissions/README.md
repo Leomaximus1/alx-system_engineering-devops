@@ -7,4 +7,7 @@
 	whoami
 #3 - prints all the groups the current user is part of.
 	#!/bin/bash
-	groups 
+	groups
+#4 - changes the owner of the file hello to the user betty.
+	#!/bin/bash
+	sudo chown betty hello 
