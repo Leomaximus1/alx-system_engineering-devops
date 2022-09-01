@@ -31,4 +31,7 @@
 	chmod 753 hello
 #10 - sets the mode of the file hello the same as olleh’s mode.
 	#!/bin/bash
-	chmod --reference olleh hello 
+	chmod --reference olleh hello
+#11 - Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+	#!/bin/bash
+	chmod a+x */ 
