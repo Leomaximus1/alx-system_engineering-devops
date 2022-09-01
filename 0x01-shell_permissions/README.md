@@ -29,4 +29,6 @@
 #9 - sets the mode of the file hello to this:-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
 	#!/bin/bash
 	chmod 753 hello
-
+#10 - sets the mode of the file hello the same as olleh’s mode.
+	#!/bin/bash
+	chmod --reference olleh hello 
