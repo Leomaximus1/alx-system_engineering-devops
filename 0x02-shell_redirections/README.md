@@ -17,3 +17,7 @@
 5. Display the last 10 lines of /etc/passwd
 	#!/bin/bash
 	tail -10 /etc/passwd 
+
+6. Display the first 10 lines of /etc/passwd
+	#!/bin/bash
+	head -10 /etc/passwd
