@@ -8,4 +8,4 @@
 
 3. Display the content of the /etc/passwd file.
 	#!/bin/bash
-	sort < /etc/passwd 
+	cat /etc/passwd 
