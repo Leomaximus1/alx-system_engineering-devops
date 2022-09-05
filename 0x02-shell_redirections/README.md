@@ -12,4 +12,8 @@
 
 4. Display the content of /etc/passwd and /etc/hosts
 	#!/bin/bash
-	cat /etc/passwd /etc/hosts 
+	cat /etc/passwd /etc/hosts
+
+5. Display the last 10 lines of /etc/passwd
+	#!/bin/bash
+	tail -10 /etc/passwd 
