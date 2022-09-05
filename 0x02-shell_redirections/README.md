@@ -8,4 +8,8 @@
 
 3. Display the content of the /etc/passwd file.
 	#!/bin/bash
-	cat /etc/passwd 
+	cat /etc/passwd
+
+4. Display the content of /etc/passwd and /etc/hosts
+	#!/bin/bash
+	cat /etc/passwd /etc/hosts 
