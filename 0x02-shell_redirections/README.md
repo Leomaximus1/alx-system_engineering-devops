@@ -30,3 +30,7 @@
 	#!/bin/bash
 	ls -la > ls_cwd_content
 
+10. Write a script that duplicates the last line of the file iacta
+	#!/bin/bash
+	tail -1 iacta >> iacta 
+
