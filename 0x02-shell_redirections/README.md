@@ -36,5 +36,9 @@
 
 11. Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 	#!/bin/bash
-	find -name "*.js" -type f -delete 
+	find -name "*.js" -type f -delete
+
+12. Write a script that counts the number of directories and sub-directories in the current directory.The current and parent directories should not be taken into account. Hidden directories should be counted
+	#!/bin/bash
+	ls -lt | head 
 
